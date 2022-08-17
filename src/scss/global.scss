@@ -2,10 +2,15 @@
 
 body {
   font-family: 'Work Sans', sans-serif;
+  background-color: $bg-color;
+}
+
+img {
+  max-width: 200px;
 }
 
 [class*='__container'] {
-  max-width: 1420px;
+  max-width: 1450px;
   margin: 0 auto;
   padding: 0 15px;
 }
