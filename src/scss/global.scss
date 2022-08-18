@@ -3,14 +3,22 @@
 body {
   font-family: 'Work Sans', sans-serif;
   background-color: $bg-color;
-}
+  color: #fff;
 
-img {
-  max-width: 200px;
+  &._lock {
+    overflow: hidden;
+  }
 }
 
 [class*='__container'] {
   max-width: 1450px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  color: $text-color;
 }
